@@ -5,7 +5,7 @@ import random
 import math
 import itertools as tls
 from datetime import datetime
-import time
+# import time
 import os
 
 
@@ -104,7 +104,7 @@ def start(n, start_city):
     ---
     Retorna None.
     '''
-    ini = time.time()
+    # ini = time.time()
 
     x, y = gen_cordinate(n)  # gera as coordenadas x e y
 
@@ -185,8 +185,8 @@ def start(n, start_city):
     # coloca o texto que mostra a distancia total percorrida
     plt.text(min_axis_x + 0.1, max_axis_y-1.1, "Distancia total do percurso: " + str(round(total_distance_from_the_way_made, 3)), fontsize=10)
 
-    fim = time.time() - ini
-    print(fim)
+    # fim = time.time() - ini
+    # print(fim)
 
     plt.show()
 
