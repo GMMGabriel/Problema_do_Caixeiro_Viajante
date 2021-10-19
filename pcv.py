@@ -11,7 +11,7 @@ import os
 
 # FUNCTIONS ==========================================================================================================================
 
-def gen_cordinate(n):
+def gen_coordinate(n):
     '''
     n: número de cidades.
     ---
@@ -106,7 +106,7 @@ def start(n, start_city):
     '''
     # ini = time.time()
 
-    x, y = gen_cordinate(n)  # gera as coordenadas x e y
+    x, y = gen_coordinate(n)  # gera as coordenadas x e y
 
     matrix_distances_between_cities = calc_distances_between_cities(x, y, n)  # calcula a distancia entre cada cidade
 
