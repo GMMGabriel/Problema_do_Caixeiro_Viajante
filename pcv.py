@@ -236,7 +236,7 @@ if __name__ == '__main__':
     os.system('cls')
 
     print("Número de cidades:", n)
-    print("Índice da cidade inicial:", (i if i_aux > -1 else "aleatório"))
+    print("Índice da cidade inicial:", (i if i_aux > -1 else str(i) + " (aleatório)"))
 
     start(n, i)
 
